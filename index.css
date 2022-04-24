@@ -1,0 +1,32 @@
+body{
+    max-width: 800px;
+    margin:0 auto;
+}
+
+div{
+    display: grid;
+    padding: 10px;
+    background-color: #7b3ce8;
+    text-align: right;
+    border-radius: 20px;
+}
+.class{
+    font-size: large;
+
+}
+p{
+    border-radius: 20px;
+    padding: 10px;
+    background-color: #7b3ce8;
+    text-align: center;
+}
+h1{
+    row-gap: 40px;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+h2{
+    font-style: italic;
+    font-size: small;
+    
+}
