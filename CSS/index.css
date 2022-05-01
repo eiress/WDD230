@@ -3,30 +3,37 @@ body{
     margin:0 auto;
 }
 
-div{
+.banner{
     display: grid;
     padding: 10px;
     background-color: #7b3ce8;
     text-align: right;
     border-radius: 20px;
+    grid-template-columns: 60% 40%;
 }
-.class{
-    font-size: large;
 
-}
 p{
     border-radius: 20px;
     padding: 10px;
     background-color: #7b3ce8;
     text-align: center;
 }
-h1{
+h2{
     row-gap: 40px;
     font-family:'Courier New', Courier, monospace;
     font-weight: bold;
 }
-h2{
+h3{
     font-style: italic;
     font-size: small;
     
+}
+
+.desc {
+    text-align: center;
+    align-self: center;
+}
+
+img{
+    max-width: 400px;
 }
