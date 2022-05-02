@@ -1,7 +1,6 @@
 body{
-    max-width: 800px;
     margin: 0 auto;
-   
+    
 }
 
 .heading{
@@ -16,7 +15,6 @@ main{
     margin: 50px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    max-width: 700px;
 
 }
 main section{
@@ -42,4 +40,10 @@ footer{
         width: 50%;
     }
 }
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 
