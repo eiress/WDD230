@@ -1,4 +1,4 @@
-/* <link href="https://fonts.googleapis.com/css2?family=Tapestry&display=swap" rel="stylesheet"> */
+<link href="https://fonts.googleapis.com/css2?family=Tapestry&display=swap" rel="stylesheet">
 
 body{
     margin: 0 auto;
@@ -64,7 +64,7 @@ footer{
     main{
         grid-template-columns: 1fr;
     }
-    
+
     
 }
 
