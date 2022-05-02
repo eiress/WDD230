@@ -1,12 +1,14 @@
+<link href="https://fonts.googleapis.com/css2?family=Tapestry&display=swap" rel="stylesheet">
+
 body{
     margin: 0 auto;
-    
 }
 
 .heading{
     padding: 15px;
     background-color: brown;
     text-align: center;
+    font-family: 'Tapestry', cursive;
 }
 
 
@@ -29,7 +31,14 @@ footer{
     background-color: brown;
     text-align: center;
     font-size: x-large;
+    font-family: 'Tapestry', cursive;
 }
+/*main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}*/
+
 
 @media only screen and (max-width: 1000px){
     main{
@@ -40,10 +49,11 @@ footer{
         width: 50%;
     }
 }
-main{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
 
+@media only screen and (max-width: 600px){
+    main{
+        grid-template-columns: 1fr;
+    }
+    
+}
 
