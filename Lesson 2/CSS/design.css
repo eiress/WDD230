@@ -21,7 +21,7 @@ main{
 }
 main section{
     border: 1px;
-    padding: 0 1rem;
+    padding: 25px 25px;
     margin: 0.5em;
     background-color: grey;
 }
@@ -33,16 +33,20 @@ footer{
     font-size: x-large;
     font-family: 'Tapestry', cursive;
 }
-main{
+element.style{
+    height:auto;
+    width: 100%;
+}
+/*main{
     display: flex
     flex-wrap: wrap;
     justify-content: center;
-}
+}*/
 
 
 @media only screen and (max-width: 1000px){
     main{
-        grid-template-columns: 1fr 1fr 1fr 1fr ;
+        grid-template-columns: 1fr 1fr 1fr;
     }
 
     main section:nth-child(1) {
