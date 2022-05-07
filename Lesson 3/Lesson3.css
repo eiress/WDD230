@@ -16,7 +16,7 @@ ul{
     gap: 50px;
 }
 
-li a{
+a{
     font-size: 2.5em;
     text-align: center;
     text-decoration: none;
