@@ -7,19 +7,18 @@ body{
     font-family: 'Tapestry', cursive;;
 }
 
-
-
 ul{
     display: flex;
-    background-color: rgb(0, 255, 34);
+    background-color: paleturquoise;
     flex-direction: column;
-    gap: 50px;
+    justify-content: center;
+    gap: 100px;
 }
 
 a{
     font-size: 1.5em;
-    text-align: center;
     text-decoration: none;
+    text-align: center;
 }
 
 a:hover {
@@ -29,7 +28,7 @@ a:hover {
 
 h1, h2{
     font-family: 'Barlow', sans-serif;
-    text-align: center;
+    
 }
 
 p{
@@ -39,8 +38,8 @@ p{
 
 footer p{
     display: flex;
-    background-color: rgb(0, 255, 34);
-    text-align: center;
+    background-color: paleturquoise;
+   justify-content: center;
     font-family: 'Tapestry', cursive;
 }
 
