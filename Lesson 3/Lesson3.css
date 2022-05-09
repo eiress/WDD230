@@ -15,13 +15,14 @@ ul{
     gap: 100px;
 }
 
-a{
+li{
     font-size: 1.5em;
     text-decoration: none;
     text-align: center;
+    list-style-type: none;
 }
 
-a:hover {
+li:hover {
     color: yellow;
     background-color: gray;
 }
