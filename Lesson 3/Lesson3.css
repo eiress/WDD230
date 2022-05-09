@@ -28,7 +28,17 @@ a:hover {
 
 h1, h2{
     font-family: 'Barlow', sans-serif;
-    
+}
+
+div{
+    border: 1px solid black;
+  padding: 25px;
+  background-color: paleturquoise;
+}
+.second{
+    border: 1px solid black;
+    padding: 25px;
+    background-color: yellow;
 }
 
 p{
