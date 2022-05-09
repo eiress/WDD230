@@ -25,6 +25,9 @@ a:hover {
     color: yellow;
     background-color: gray;
 }
+img{
+    align-content: center;
+}
 
 h1, h2{
     font-family: 'Barlow', sans-serif;
@@ -32,13 +35,17 @@ h1, h2{
 
 div{
     border: 1px solid black;
-  padding: 25px;
+  padding: 15px;
   background-color: paleturquoise;
+  width: 50%;
+  gap: 100px;
 }
 .second{
     border: 1px solid black;
-    padding: 25px;
+    padding: 15px;
     background-color: yellow;
+    width: 50%;
+    gap: 30px;
 }
 
 p{
