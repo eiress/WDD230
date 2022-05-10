@@ -9,7 +9,7 @@ body{
 
 ul{
     display: flex;
-    background-color: paleturquoise;
+    background-color: limegreen;
     flex-direction: column;
     justify-content: center;
     gap: 100px;
@@ -35,17 +35,15 @@ h1, h2{
 }
 
 div{
-    border: 1px solid black;
-  padding: 15px;
-  background-color: paleturquoise;
+  text-align: center;
+  background-color: limegreen;
   width: 50%;
   
 }
 .second{
-    border: 1px solid black;
-    padding: 15px;
+    row-gap: 50%;
     background-color: yellow;
-    width: 50%;
+    text-align: center;
 }
 .drawing{
     justify-items: end;
@@ -59,7 +57,7 @@ p{
 
 footer p{
     display: flex;
-    background-color: paleturquoise;
+    background-color: limegreen;
    justify-content: center;
     font-family: 'Tapestry', cursive;
 }
