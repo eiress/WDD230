@@ -1,0 +1,106 @@
+section{
+    background-color: grey;
+    border: 1px solid black;
+    height: 200px;
+}
+
+section p{
+    padding: 20px;
+}
+
+#spotlight{
+    height: 650px;
+}
+#spot2, #spot3{
+    margin: 10px;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+@media screen and (min-width: 550px){
+    main{
+        grid-template-columns: repeat(6, 1fr);
+    }
+    #hero{
+        grid-column: 1/7;
+        grid-row: 1/2;
+    }
+    #news{
+        grid-column: 1/7;
+        grid-row: 2/3;
+    }
+    #spotlight{
+        display: flex;
+        height: 200px;
+        grid-column: 1/7;
+        grid-row: 3/4;
+    }
+    #spot2, #spot3{
+        width: 100%;
+    }
+    #spot3{
+        display: none;
+    }
+    #event{
+        grid-column: 1/5;
+        grid-row: 4/5;
+    }
+    #join{
+        grid-column: 1/7;
+        grid-row: 5/6;
+    }
+    #weather{
+        grid-column: 1/7;
+        grid-row: 6/7;
+    }
+}
+
+@media screen and (min-width: 550px){
+    main{
+        grid-template-columns: repeat(5, 1fr);
+        grid-gap: 10p;
+    }
+    #hero{
+        grid-column: 2/4;
+        grid-row: 1/4;
+    }
+    #news{
+        grid-column: 2/4;
+        grid-row: 3/4;
+        
+    }
+    #spotlight{
+        align-items: center;
+        justify-items: center;
+        height: 100%;
+        grid-column: 4/5;
+        grid-row: 1/4;
+        flex-direction: column;
+    }
+    #spot2, #spot3{
+        width: 100%;
+    }
+    #spot3{
+        display: block;
+        width: 90%;
+    }
+    #event{
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+    #join{
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+    #weather{
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+
+}
+    
+
+    
