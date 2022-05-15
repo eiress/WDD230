@@ -1,0 +1,46 @@
+@media screen and (min-width: 1150px){
+    main{
+        grid-template-columns: repeat(5, 1fr);
+        grid-gap: 10p;
+    }
+    #hero{
+        grid-column: 2/4;
+        grid-row: 1/4;
+    }#news{
+        grid-column: 2/4;
+        grid-row: 3/4;
+     } 
+     #spotlight{
+        align-items: center;
+        justify-items: center;
+        grid-column: 1/5;
+        grid-row: 2/7;
+    }
+    #spot1, #spot2{
+        display: block;
+    }
+    #spot1{
+        grid-column: 2/3;
+        grid-row: 5/6;
+    }
+    #spot2{
+        grid-column: 4/5;
+        grid-row: 5/6;
+    }
+    #spot3{
+        display: none;
+        }
+ #join{
+        grid-column: 1/5;
+        grid-row: 7/8;
+    }
+    #Event{
+        grid-column: 1/4;
+        grid-row: 8/9;
+    }
+    #weather{
+        grid-column: 4/5;
+        grid-row: 8/9;
+    }
+
+}
