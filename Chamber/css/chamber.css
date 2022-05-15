@@ -1,5 +1,5 @@
 body{
-     padding: 50px;
+     padding: 30px;
     
 }
 
@@ -12,11 +12,11 @@ header{
 section{
     background-color: pink;
     border: 2px solid black;
-    height: 200px;
-    margin: 0;
+    height: 150px;
+    margin: 100px 80px 80px 80px;
 }
 #spotlight{
-    height: 600px;
+    height: 550px;
 }
 
 
@@ -36,6 +36,7 @@ footer{
     section{
         grid-template-columns: repeat(6, 1fr);
         background-color: gray;
+       
     }
     #hero{
         grid-column: 1/7;
