@@ -15,6 +15,25 @@ body {
         margin: 10px;
         background-color: beige; 
      }
+
+    nav ul{
+         display: flex;
+         flex-direction: row;
+         align-items: center;
+         gap: 50px;
+         justify-self: center;
+         list-style-type: none;
+     }
+     li:hover{
+         background-color: yellow;
+     }
+     #date {
+	margin: 0.5rem;
+	border: 1px solid #bbb;
+	padding: 0.75rem;
+	background-color: #eee;
+}
+
     
     footer {
         background-color : brown;
