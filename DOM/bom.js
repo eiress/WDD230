@@ -1,6 +1,6 @@
 const input = document.querySelector("input");
 const button = document.querySelector("button");
-const list = document.querySelector("list");
+const list = document.querySelector(".list");
 
 button.addEventListener('click', () => {
     const listItem = document.createElement('li');
@@ -9,7 +9,7 @@ button.addEventListener('click', () => {
     input.value = "";
 
 
-   listItem.textContent=myItem;
+   listItem.textContent = myItem;
    listBtn.textContent = "X";
     listItem.appendChild(listBtn);
 

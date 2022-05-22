@@ -1,6 +1,8 @@
 body {
     padding : 60px;
+    
     }
+    
     header {
     background-color : brown;
     display : flex;
@@ -21,7 +23,7 @@ body {
          flex-direction: row;
          align-items: center;
          gap: 50px;
-         justify-self: center;
+         
          list-style-type: none;
      }
      li:hover{
@@ -40,47 +42,51 @@ body {
         display : flex;
         align-items : center;
         justify-content : space-between;
-        
-        }
-    
- @media only screen and (max-width: 570px){
-        main{
-        grid-template-columns: repeat(5, 1fr);
-     
-      
+         }
+
+@media only screen and (max-width: 700px){
+    #body{
+        background-color: aqua;
+        grid-template-columns: (4, 1fr);
+        grid-template-rows: (6, 1fr);
+    }
+    #social{
+        display: block;
+        text-align: left;
+    }
+    nav ul{
+        float: left;
+        display: block;
     }
     #hero{
-        grid-column:1/5;
+        grid-column: 1/4;
         grid-row: 1/2;
-    }#Event{
-        grid-column: 1/5;
+    }
+    #Event{
+        grid-column: 1/4;
         grid-row: 2/3;
-    }#weather{
-        grid-column: 1/5;
-        grid-row: 3/4;
+    }
+    #weather{
+        grid-column: 1/4;
+        grid-row: 3/4
     }
     #news{
-        grid-column: 1/5;
-        grid-row: 4/5; 
-    } #spotlight{
-        grid-column: 1/5;
-        grid-row: 4/8;
-        height: auto;
-        align-items: center;
-        justify-self: center;
-        flex-direction: column;
+        grid-column: 1/4;
+        grid-row: 4/5;
     }
-    #spot1{
-        display: block;
-       
+    #spotlight{
+        grid-column: 1/4;
+        grid-row: 5/6;
+        
     }
-    #spot2{
+    #spot1, #spot2{
         display: block;
     }
     #spot3{
         display: none;
     }
-    #Join{
+    #join{
         display: none;
     }
 }
+    
