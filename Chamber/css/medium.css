@@ -1,0 +1,45 @@
+@media only screen and (max-width: 60em) {
+
+
+
+    main{
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows:  10rem 10rem 10rem 10rem 10rem 5fr;
+
+    }
+    
+    #hero{
+        grid-column: 1/4;
+        grid-row: 1/2;
+    }
+
+    #news{
+        grid-column: 1/4;
+        grid-row: 2/3;
+    }
+    #spotlight{
+        display: flex;
+        grid-column: 1/4;
+        grid-row: 3/4;
+        justify-content: space-around;
+        
+    }
+    #spot3{
+        display: none;
+    }
+    #join{
+        grid-column: 1/4;
+        grid-row: 4/5;
+        
+    }
+
+    #weather{
+        grid-column: 3/4;
+        grid-row: 5/6;
+    }
+
+    #Event{
+        grid-column: 1/3;
+        grid-row: 5/6;
+    }
+}
