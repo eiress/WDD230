@@ -31,7 +31,10 @@
     #join{
         grid-column: 1/4;
         grid-row: 4/5;
-        
+    }
+    #join .button p{
+        display: flex;
+        flex-direction: row;
     }
 
     #weather{
