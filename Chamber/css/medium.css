@@ -32,10 +32,11 @@
         grid-column: 1/4;
         grid-row: 4/5;
     }
-    #join .button p{
+    .button2 p{
         display: flex;
-        flex-direction: row;
+        flex-direction: row-reverse;
     }
+    
 
     #weather{
         grid-column: 3/4;
