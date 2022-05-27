@@ -14,3 +14,21 @@ datefieldUK.innerHTML = `<em>${fulldateUK}</em>`;
 document.querySelector(
 	"#lastModified"
 ).textContent = `Last Modification: ${document.lastModified}`;
+
+let date = new Date();
+console.log(date);
+
+let year = date.getFullYear();
+console.log(year);
+
+let currentdate = document.lastModified;
+document.querySelector('span').textContent = currentdate;
+
+console.log(currentdate);
+
+let temp = document.querySelector('.temp').textContent;
+let wind = document.querySelector('.wind').textContent;
+
+if(temp <= 50 && wind >= 30){
+	
+}
