@@ -13,6 +13,18 @@
         grid-column: 1/4;
         grid-row: 1/2;
     }
+    #Social{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 10px;
+        font-size:x-large;
+        list-style-type: none;
+    }
+    li:hover{
+        color: aqua;
+        cursor: pointer;
+    }
 
     #news{
         grid-column: 1/4;

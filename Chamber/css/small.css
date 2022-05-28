@@ -12,6 +12,17 @@
         grid-column: 1/2;
         grid-row: 1/2;
         }
+        #Social{
+            display: block
+            flex-direction: table-column;
+            justify-content: center;
+            font-size:medium;
+            list-style-type: none;
+        }
+        li:hover{
+            color: aqua;
+            cursor: pointer;
+        }
 
     #news{
         grid-column: 1/2;
@@ -24,6 +35,9 @@
         justify-content: space-around;
         
     }
+    #spot1{
+        height: 20px;
+    }
     #spot3{
         display: none;
     }
@@ -34,6 +48,7 @@
    #weather{
         grid-column: 1/2;
         grid-row: 3/4;
+        list-style-type: none;
     }
     #Event{
         grid-column: 1/2;
