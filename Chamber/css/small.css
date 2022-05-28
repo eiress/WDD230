@@ -7,16 +7,11 @@
         grid-template-columns: 1fr;
         grid-template-rows:  10rem 10rem 10rem 10rem 10rem 5fr;
     }
-nav ul li a{
-    display:block;
-    text-decoration:none;
-    color: aqua;
-}
+
     #hero{
         grid-column: 1/2;
         grid-row: 1/2;
-        
-    }
+        }
 
     #news{
         grid-column: 1/2;
@@ -36,12 +31,10 @@ nav ul li a{
         display: none;
         
     }
-
-    #weather{
+   #weather{
         grid-column: 1/2;
         grid-row: 3/4;
     }
-
     #Event{
         grid-column: 1/2;
         grid-row: 2/3;

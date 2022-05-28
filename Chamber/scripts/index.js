@@ -26,9 +26,3 @@ document.querySelector('span').textContent = currentdate;
 
 console.log(currentdate);
 
-let temp = document.querySelector('.temp').textContent;
-let wind = document.querySelector('.wind').textContent;
-
-if(temp <= 50 && wind >= 30){
-	
-}
