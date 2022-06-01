@@ -38,18 +38,24 @@ main{
     grid-template-rows:  10rem 10rem 15rem 3fr;
 }
 #hero{
-    background-image: url('../images/center2.jpg');
-    background-size: cover;
-    background-position: center;
+    
     grid-column: 2/6;
     grid-row: 1/4;
 }
+.picture{
+    
+    height: 10px;
+    background-position: center;
+}
 .button1{
-    border-radius: 20px;
+    border-radius: 30px;
     background-color: grey;
     cursor: pointer;
     float: right;
-    text-align: center; 
+    text-align: center;
+    font-size: 20px; 
+    width: 30em;
+    height: 60px;
 }
 .button2{
     border-radius: 40px;
@@ -59,6 +65,11 @@ main{
     text-align: center;
     width: 100%;
     cursor: pointer;
+}
+.temp{
+    font-size: 1em;
+    text-align: right;
+    
 }
 
 h1{
@@ -111,7 +122,7 @@ h2{
     margin-top: auto;
 }
 .sun{
-    display: block;
+    display: flex;
 }
 #hero p{
     color: blue;
@@ -187,6 +198,7 @@ section{
 .bottom{
     text-align: center;
     color: white;
+    font-size: large;
 }
 footer {
     background-color : brown;

@@ -13,7 +13,7 @@
         grid-row: 1/2;
         }
         #Social{
-            display: block
+            display: block;
             flex-direction: table-column;
             justify-content: center;
             font-size:medium;
