@@ -1,0 +1,8 @@
+picture{
+    display: flex;
+    flex-direction: block;
+    align-content: center;
+    justify-content: center;
+    width: 300px;
+    height: 400px;
+}
