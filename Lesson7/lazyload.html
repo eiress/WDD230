@@ -4,14 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/external.Css">
+   
     <title>Progressive Loading</title>
 </head>
 <body>
     <h1>Progressive Loading Images</h1>
-    <picture><img src="photos/puppy.jpg"></picture>
-    <picture><img src="photos/puppy2.webp"></picture>
-    <picture><img src="photos/building.webp"></picture>
-    <picture><img src="photos/building2.jpg"></picture>
-    <picture><img src="photos/puppy.jpg"></picture>
+
+    <img src="http://placekitten.com/300/400" data-src='photos/puppy.jpg'>
+    <img src="http://placekitten.com/300/400" data-src='photos/building2.jpg'>
+    <img src="http://placekitten.com/300/400" data-src='photos/puppy.jpg'>
+    <img src="http://placekitten.com/300/400" data-src='photos/building2.jpg'>
+    <img src="http://placekitten.com/300/400" data-src='photos/puppy.jpg'>
+
+
+        
+        <!-- <img src="photos/puppy.jpg" 
+        data-src="photos/puppy2.webp" 
+        data-src="photos/building.webp" 
+         data-src="photos/building2.jpg" 
+         data-src="photos/puppy.jpg" 
+        data-src="photos/building2.jpg" alt="building2"> -->
+
 </body>
+<script src="scripts/lazyload.js"></script>
 </html>
