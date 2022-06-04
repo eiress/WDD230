@@ -2,6 +2,10 @@ body{
    text-align: center;
    display:grid;
    grid-template-columns: 1fr;
-   align-items: center;
-   justify-content: center;
+   
+}
+[data-src] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
