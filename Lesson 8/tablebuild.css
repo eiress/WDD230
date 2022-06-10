@@ -1,21 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@1,100&family=Tapestry&display=swap');
+
 table{
     text-align: center;
     margin: 100px auto;
-    border: 1px groove black;
+    font-family: 'Barlow', sans-serif;
+    color-scheme: green;
 }
 
 
 tr, td{
     padding: 10px;
-    font-size: 1.2em;
+    font-size: 1.5em;
 }
 
-tr, th{
-    border: 1px solid black;  
-}
-tr:nth-child(odd){
+
+table tr:nth-child(odd){
     background-color: lightblue;
 }
-tfoot, tr{
-    background-color: yellow;
+thead tr:nth-child(2),  thead tr:nth-child(4){
+    background-color: green;
 }
+
+
+
+tbody tr:nth-child(even){
+    background-color: pink;
+}
+
+tbody tr:nth-child(4) td:nth-child(3) {
+    background-color: rgb(139, 94, 46);
+}
+
