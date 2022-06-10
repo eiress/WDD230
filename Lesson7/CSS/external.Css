@@ -1,8 +1,14 @@
 body{
    text-align: center;
+   margin: 10px auto;
+   max-width: 300px;
    display:grid;
    grid-template-columns: 1fr;
    
+}
+
+img{
+    max-width: 100%;
 }
 [data-src] {
     display: flex;
