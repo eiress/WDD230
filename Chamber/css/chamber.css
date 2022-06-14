@@ -181,13 +181,16 @@ h2{
     width: 90%;
     margin:0 auto;
     font-size: 15px;
+    
 }
 form, .level{
-    margin: 10%;
+    margin: 5%;
 }  
 form{
-    width: 60%;
-    height: 70%;
+    font-style: italic;
+    font-size: 2rem;
+    text-align: center;
+    gap: 60px;
 }
 
 

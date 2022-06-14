@@ -3,8 +3,10 @@
 table{
     text-align: center;
     margin: 100px auto;
-    font-family: 'Barlow', sans-serif;
     color-scheme: green;
+}
+table tr th{
+    font-family: 'Barlow', sans-serif;
 }
 
 
