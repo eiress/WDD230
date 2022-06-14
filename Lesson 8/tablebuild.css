@@ -5,7 +5,7 @@ table{
     margin: 100px auto;
     color-scheme: green;
 }
-table tr th{
+table thead{
     font-family: 'Barlow', sans-serif;
 }
 
