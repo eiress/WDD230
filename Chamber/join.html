@@ -8,7 +8,10 @@
     <title>Join page</title>
 </head>
 <body>
+    <div id="content">
     <form>
+        <fieldset>
+            <legend>Contact Information</legend>
           <label for="fname">First name:</label>
             <input type="text" id="fname" name="fname"><br>
 
@@ -18,7 +21,7 @@
             <label for="position">Job Position:</label>
             <input type="text" id="position" name="position"><br>
 
-            <label for="email1">email address:</label>
+            <label for="email1">Email address:</label>
             <input type="email" id="email1" name="email1"><br>
 
             <label for="phone">Cell phone:</label>
@@ -26,8 +29,11 @@
 
             <label for="business">Business name:</label>
             <input type="text" id="title" name="title"><br>
+        </fieldset>
+    
 
-            
+    <fieldset>
+         <legend>Membership</legend>
             <label for="lname">Membership type:</label>
             <input type="radio" id="mem" name="member1" value="NP Membership">
             <label for="mem">NP Membership</label><br>
@@ -40,28 +46,35 @@
 
             <label for="title">Business Description:</label>
             <input type="text" id="title" name="title"><br>
+        </fieldset>
+        
     </form>
 
-    <table>
-        <thead>
-        <tr>
-            <th>Membership levels</th>
-            <th>Benefits</th>
-        </tr>
-    </thead>
-        <tbody>
-        <tr>
-            <td>NP Membership</td>
-            <td>for non-profit organizations and there is no fee</td>
-            <td></td>
-        </tr>
-        <tr>
-            <td row span="3">Bronze Membership</td>
-            <td>15% discount on events</td>
-            <td>10% discount on advertising</td>
-            <td>Fee of $50/month</td>
-        </tr>
-    </tbody>
+<div class="level">
+    <h1>Membership levels</H1>
+      <H2>NP Membership</H2>      
+        <li>For on profit organizations and there is no fee</li>
+     
+    <H2>Bronze Membership</H2>      
+        <li>15% discount on events</li>
+        <li>10% discount on advertising</li>
+        <li>Fee of $50/month</li>
+    
+        <H2>Silver Membership</H2>      
+        <li>25% discount on events</li>
+        <li>15% discount on advertising</li>
+        <li>Free participation in the trade fair</li>
+        <li>Fee od $100/month</li>
+
+        <H2>Gold Membership</H2>      
+        <li>50% Discout on events</li>
+        <li>50% discount on advertising</li>
+        <li>Free participation in the trade fair</li>
+        <li>5 free featured ads per year</li>
+        <li>Fee of $250/month</li>
+
+    </div>
     </table>
+</div>
 </body>
 </html>

@@ -175,16 +175,25 @@ h2{
     grid-row:4/5;
     font-size: larger;
 }
-form{
-    font-size: 1.4rem;
-    
+/*CSS FOR JOIN.HTML*/
+#content{
+    display: flex;
+    width: 90%;
+    margin:0 auto;
+    font-size: 15px;
 }
-table, tr, td{
-    text-align: right;
-    border: 1px solid blue;
-    justify-content: right;
-    font-size: medium;
+form, .level{
+    margin: 10%;
 }  
+form{
+    width: 60%;
+    height: 70%;
+}
+
+
+
+
+  
 
 section{
     gap: 10rem;
