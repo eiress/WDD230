@@ -8,27 +8,53 @@
     <title>Join page</title>
 </head>
 <body>
+    <header>
+        <div class="container">
+           <div class="logo">
+              <a href="index.html"><img src="images/SLM2.png" alt="logo" height="100"></a> 
+           </div>
+    
+           <div class="nav">
+           <nav>
+            <ul id="Social">
+             <li><a href="index.html">Home</a></li>
+             <li><a href="html_Title">Question</a></li>
+             <li><a href="join.html">Join</a></li>
+             <li><a href="html_Title">Contact</a></li>
+             <li><a href="https:facebook.com">Service</a></li>
+            </ul>
+            </nav>
+        </div>
+       
+           <div class="social">
+               <a href="https:facebook.com"><img src="images/facebook-3-xxl.png" alt="Facebook" width="42px" height="42px" style="padding: 10px;"></a>
+               <a href="https:twitter.com"><img src="images/instagram-xxl (1).png" alt="Facebook" width="42px" height="42px" style="padding: 10px;"></a>
+            </div>
+        </div>
+               <div class="date"></div>
+           </header>
+           <hr>
+<main class="information">
     <div id="content">
-    <form>
-        
-            
-          <label for="fname">First name:</label>
-            <input type="text" id="fname" name="fname"><br>
+    <form method="get" action="thankyou.html">
+        <fieldset>
+         
+         <legend>Contact Information</legend>
+         <label >First name:<input type="text" id="fname" name="fname" required></label><br>
 
-            <label for="lname">Last name:</label>
-            <input type="text" id="lname" name="lname"><br>
+            <label>Last name:<input type="text" id="lname" name="lname" required></label><br>
 
-            <label for="position">Job Position:</label>
-            <input type="text" id="position" min-length="7" name="position"><br>
+            <label>Job Position:
+            <input type="text" id="position" min-length="7" name="position"></label><br>
 
             <label for="email1">Email address:</label>
-            <input type="email" id="email1" name="email1" placeholder="omo@gmail.com"><br>
+            <input type="email" id="email1" name="email1" placeholder="name@gmail.com" required><br>
 
             <label for="phone">Cell phone:</label>
-            <input type="tel" id="phone" name="phone"><br>
+            <input type="tel" id="phone" name="phone" required><br>
 
             <label for="business">Business name:</label>
-            <input type="text" id="title" name="title"><br>
+            <input type="text" id="title" name="title" required><br>
             <input type="hidden" id="Date&time" name="">
         
     
@@ -44,8 +70,9 @@
 
             <label for="title">Business Description:</label>
             <input type="text" id="title" name="title"><br>
-           <a href="thankyou.html"><input type=""submit value="Submit"></input></a>
-                        
+
+           <input type="submit" value="Submit"></input>
+        </fieldset>           
         </form>
 
 <div class="level">
@@ -74,5 +101,19 @@
     </div>
     </table>
 </div>
+
+</main>
+ <hr>
+<footer>
+    <div class="logo">
+        <img src="images/SLM2.png" alt="logo" height="100">
+    <p>SLM Event Center Lagos Nigeria 
+        email us: slmcenters@gmail.org 
+    </p>
+    </div><hr>
+    <div class="bottom"> &copy 2022 Sandra Ekuma Rexburg
+       Last updated: <span></span></div>
+      
+</footer>
 </body>
 </html>

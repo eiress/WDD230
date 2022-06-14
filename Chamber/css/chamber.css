@@ -7,7 +7,7 @@ body {
 }
 
  header {
-   color: white;
+   
 background-color : #961D1D;
  font-family: Tapestry;   
 }
@@ -18,9 +18,11 @@ background-color : #961D1D;
     gap: 60px;
     font-size:x-large;
     list-style-type: none;
+    color: white;
+    text-decoration: none;
 }
 li:hover{
-    color: aqua;
+   
     cursor: pointer;
 }
 
@@ -191,10 +193,15 @@ form{
     font-size: 2rem;
     text-align: center;
     gap: 60px;
+    cursor: pointer;
 }
 input:focus{
     outline-color: red;
     
+}
+.information{
+    display: block;
+    background-color: lightsalmon;
 }
 
 
