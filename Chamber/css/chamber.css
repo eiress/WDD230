@@ -192,7 +192,10 @@ form{
     text-align: center;
     gap: 60px;
 }
-
+input:focus{
+    outline-color: red;
+    
+}
 
 
 
