@@ -45,7 +45,7 @@
             <label>Last name:<input type="text" id="lname" name="lname" required></label><br>
 
             <label>Job Position:
-            <input type="text" id="position" minlength="7" name="position"></label><br>
+            <input type="text" id="position" pattern="[- A-Za-z]+" minlength="7" name="position"></label><br>
 
             <label for="email1">Email address:</label>
             <input type="email" id="email1" name="email1" placeholder="name@gmail.com" required><br>
@@ -55,7 +55,7 @@
 
             <label for="business">Business name:</label>
             <input type="text" id="title" name="business" required><br>
-            <input type="hidden" id="Date&time" name="">
+            <input type="hidden" id="Date&time" name="date" value="6.15.2022">
         
     
             <label for="lname">Membership type:</label><br>
