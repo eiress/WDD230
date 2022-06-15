@@ -7,7 +7,6 @@ body {
 }
 
  header {
-   
 background-color : #961D1D;
  font-family: Tapestry;   
 }
@@ -21,8 +20,11 @@ background-color : #961D1D;
     color: white;
     text-decoration: none;
 }
-li:hover{
-   
+#Social li a{
+ color: white;
+}
+li a:hover{
+   background-color:chocolate;
     cursor: pointer;
 }
 
