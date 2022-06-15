@@ -12,15 +12,7 @@ fetch(requestURL)
     }); 
   
 
-// async function getProphets(requestURL){
-//     const response = await fetch(requestURL);
-//     if (response.ok){
-//         const jsonObject = await response.json();
-//         console.table(jsonObject);
-//     }
-// };
 
-// getProphets(requestURL)
 
 function displayProphets(prophet){
     let card = document.createElement('section');
