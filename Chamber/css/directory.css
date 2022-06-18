@@ -26,3 +26,14 @@ li a:hover{
    background-color:chocolate;
     cursor: pointer;
 }
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.content{
+    display: flex;
+    align-items: center;
+    
+}
