@@ -1,0 +1,58 @@
+{ "companies":[
+    {
+        "name": "Shein",
+        "Address": "Los Angeles California",
+        "phone": "208-897-4120",
+        "website":"https://us.shein.com/?ici=us_tab01",
+        "image": "images/images.jpg"
+    },
+    {
+        "name": "6pm",
+        "Address": "Los Angeles California",
+        "phone": "208-897-4120",
+        "website":"https://www.6pm.com/",
+        "image": "../images/"
+    },
+    {
+        "name": "Amazon",
+        "Address": "Los Angeles California",
+        "phone": "208-967-4258",
+        "website":"https://www.amazon.com",
+        "imageurl": ""
+    },
+    {
+        "name": "Eide Bailly ",
+        "Address": "Los Angeles California",
+        "phone": "208-897-4120",
+        "website":"https://www.eidebailly.com/",
+        "imageurl": ""
+    },
+    {
+        "name": "Shein",
+        "Address": "Los Angeles California",
+        "phone": "208-897-4120",
+        "website":"https://us.shein.com/?ici=us_tab01",
+        "imageurl": ""
+    },
+    {
+        "name": "Shein",
+        "Address": "Los Angeles California",
+        "phone": "208-897-4120",
+        "website":"https://us.shein.com/?ici=us_tab01",
+        "imageurl": ""
+    },
+    {
+        "name": "Shein",
+        "Address": "Los Angeles California",
+        "phone": "208-897-4120",
+        "website":"https://us.shein.com/?ici=us_tab01"
+    },
+    {
+        "name": "Shein",
+        "Address": "Los Angeles California",
+        "phone": "208-897-4120",
+        "website":"https://us.shein.com/?ici=us_tab01"
+    },
+]
+
+}
