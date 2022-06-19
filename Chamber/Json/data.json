@@ -32,28 +32,49 @@
         "Address": "Los Angeles California",
         "phone": "208-897-4120",
         "website":"https://www.alibaba.com/",
-        "image": "images/6pm.png"
+        "image": "images/alibaba.jpg"
     },
     {
         "name": "Ulta Beauty",
         "Address": "Los Angeles California",
-        "phone": "208-897-4120",
+        "phone": "208-111-0303",
         "website":"https://www.ulta.com",
-        "image": "images/amazon.jpg"
+        "image": "images/ultra.png"
     },
     {
-        "name": "Shein",
-        "Address": "Los Angeles California",
-        "phone": "208-897-4120",
-        "website":"https://us.shein.com/?ici=us_tab01",
-        "image":"images/amazon.jpg"
+        "name": "Walmart",
+        "Address": "Houston Texas",
+        "phone": "208-222-5459",
+        "website":"https://www.walmart.com/",
+        "image":"images/walmart.png"
     },
     {
-        "name": "Shein",
+        "name": "Nike INC",
+        "Address": "Los Angeles California",
+        "phone": "208-128-3675",
+        "website":"https://www.nike.com/",
+        "image":"images/nike.png"
+    },
+    {
+        "name": "Nike INC",
+        "Address": "Los Angeles California",
+        "phone": "208-369-4859",
+        "website":"https://www.nike.com/",
+        "image":"images/nike.png"
+    },
+    {
+        "name": "American Eagle",
         "Address": "Los Angeles California",
         "phone": "208-897-4120",
-        "website":"https://us.shein.com/?ici=us_tab01",
-        "image":"images/images.jpg"
+        "website":"https://www.ae.com/us/en",
+        "image":""
+    },
+    {
+        "name": "Macy",
+        "Address": "Los Angeles California",
+        "phone": "208-897-4120",
+        "website":"https://www.nike.com/",
+        "image":"images/nike.png"
     }
 ]
 
