@@ -63,18 +63,18 @@
         "image":"images/nike.png"
     },
     {
-        "name": "American Eagle",
+        "name": "Deloitte",
         "Address": "Los Angeles California",
         "phone": "208-897-4120",
         "website":"https://www.ae.com/us/en",
-        "image":""
+        "image":"images/deloitte.png"
     },
     {
         "name": "Macy",
         "Address": "Los Angeles California",
         "phone": "208-897-4120",
         "website":"https://www.nike.com/",
-        "image":"images/nike.png"
+        "image":"images/macy.png"
     }
 ]
 

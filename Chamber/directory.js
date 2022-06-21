@@ -1,47 +1,94 @@
 const requesturl=  "https://eiress.github.io/WDD230/Chamber/Json/data.json";
 
-fetch(url)
+// fetch(requesturl)
+//   .then(function (response) {
+//     return response.json();
+//   })
+//   .then(function (jsonObject) {
+//     console.table(jsonObject); 
+//     const companies = jsonObject['companies'];
+//     companies.forEach(displayDirectory);
+        
+//     }); 
+
+// OLD
+// async function getcompanies(requestURL){
+//   const response = await fetch(requestURL);
+// if(response.ok){
+//   const jsonObject = await response.json();
+//   console.log(jsonObject);
+//   jsonObject.forEach(displayDirectory());
+// }
+// };
+
+
+fetch(requesturl)
   .then(function (response) {
     return response.json();
   })
   .then(function (jsonObject) {
-    console.table(jsonObject); 
     const companies = jsonObject['companies'];
-    companies.forEach(displayDirectory);
-        
+    companies.forEach(displayTable);
+    
     }); 
+
+// getcompanies(requesturl);
   
 
 
 
-function displayDirectory(prophet){
+function displayDirectory(companies){
+  console.table(companies);
     let name = document.createElement('p');
     let address = document.createElement('p');
     let img = document.createElement('img');
     let phone = document.createElement('p');
     let web = document.createElement('p');
+    let card = document.querySelector('.card');
 
-    name.textContent = prophet.name + ' '+ prophet.lastname;
-    phone.textContent = `${prophet.phoneNumber}`;
-    web.textContent = `${prophet.birthplace}`;
-    img.setAttribute('src', prophet.imageurl);
-    img.setAttribute
-    card.appendChild(h2);
-    card.appendChild(dob);
+
+    name.textContent = companies.name;
+    phone.textContent = `${companies.phoneNumber}`;
+    web.textContent = `${companies.website}`;
+    img.setAttribute('src', `./${companies.image}`);
+    console.log(`./${companies.image}`)
+    img.setAttribute('alt', companies.name);
+    address.textContent= companies.address;
+    phone.textContent = companies.phone;
+
+    
+    card.appendChild(name);
+    card.appendChild(address);
     card.appendChild(img);
-    card.appendChild(pob);
-    document.querySelector('.cards').appendChild(card);
+    card.appendChild(phone);
+    card.appendChild(web);
+    //  document.querySelector('.card').appendChild(name);
 }
 
-function displayTable(prophet){
+function displayTable(companies){
     let list_row = document.createElement('tr');
-    let td_name = document.createElement('td');
-    td_name.textContent = prophets.name + ' ' + prophet.lastname;
 
-    let td_birthdate = document.createElement('td');
-    td_birthdate.textContent = prophet.birthdate;
+    let name = document.createElement('td');
+    let address = document.createElement('td');
+    let img = document.createElement('img');
+    let phone = document.createElement('td');
+    let web = document.createElement('td');
 
-    list_row.appendChild(td_name);
-    list_row.appendChild(td_birthdate);
+
+    name.textContent = companies.name;
+    phone.textContent = `${companies.phoneNumber}`;
+    web.textContent = `${companies.website}`;
+    img.setAttribute('src', `./${companies.image}`);
+    console.log(`./${companies.image}`)
+    img.setAttribute('alt', companies.name);
+    address.textContent= companies.address;
+    phone.textContent = companies.phone;
+
+    list_row.appendChild(name);
+    list_row.appendChild(address);
+    list_row.appendChild(img);
+    list_row.appendChild(phone);
+    list_row.appendChild(web);
     document.querySelector('table').appendChild(list_row);
 }
+
