@@ -42,7 +42,7 @@ function displayDirectory(companies){
     card.appendChild(img);
     card.appendChild(phone);
     card.appendChild(web);
-    //  document.querySelector('.card').appendChild(name);
+      //document.querySelector('.card').appendChild(card);
 }
 
 function displayTable(companies){
