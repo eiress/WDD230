@@ -14,7 +14,8 @@ fetch(requesturl)
 
 // getcompanies(requesturl);
   
-
+document.getElementById("myIcon").addEventListener("click", displayDirectory);
+document.getElementById("myList").addEventListener("click", displayTable);
 
 
 function displayDirectory(companies){
