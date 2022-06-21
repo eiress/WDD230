@@ -25,7 +25,7 @@
         "Address": "Los Angeles California",
         "phone": "208-897-4120",
         "website":"https://www.eidebailly.com/",
-        "image": "images/amazon.jpg"
+        "image": "images/eidebailly.png"
     },
     {
         "name": "Alibaba",
@@ -60,7 +60,7 @@
         "Address": "Lagos Nigeria",
         "phone": "+234-803-344-2723",
         "website":"https://www.nike.com/",
-        "image":"images/nike.png"
+        "image":"images/uba.png"
     },
     {
         "name": "Deloitte",
