@@ -1,25 +1,5 @@
 const requesturl=  "https://eiress.github.io/WDD230/Chamber/Json/data.json";
 
-// fetch(requesturl)
-//   .then(function (response) {
-//     return response.json();
-//   })
-//   .then(function (jsonObject) {
-//     console.table(jsonObject); 
-//     const companies = jsonObject['companies'];
-//     companies.forEach(displayDirectory);
-        
-//     }); 
-
-// OLD
-// async function getcompanies(requestURL){
-//   const response = await fetch(requestURL);
-// if(response.ok){
-//   const jsonObject = await response.json();
-//   console.log(jsonObject);
-//   jsonObject.forEach(displayDirectory());
-// }
-// };
 
 
 fetch(requesturl)
@@ -28,7 +8,7 @@ fetch(requesturl)
   })
   .then(function (jsonObject) {
     const companies = jsonObject['companies'];
-    companies.forEach(displayTable);
+    companies.forEach(displayDirectory);
     
     }); 
 
