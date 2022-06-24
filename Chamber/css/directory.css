@@ -26,14 +26,42 @@ li a:hover{
    background-color:chocolate;
     cursor: pointer;
 }
-.icon{
+.list_row{
+    display: block;
+}
+.card{
     display: flex;
     justify-content: center;
-    align-items: center;
-   
+    gap: 60px;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.card section {
+    border: 2px solid navy;
+    background-color: lightblue;
+    padding: 30px;
+    text-align: center;
+    width: 200px;
+    margin: 10px;
+    
+    }
+.card section img{
+    width: 100%;
 }
 .content{
     display: flex;
     align-items: center;
     
 }
+
+.icon{
+    margin: 0 auto;
+    max-width: 200px;
+    
+}
+
+/* .card{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+} */
