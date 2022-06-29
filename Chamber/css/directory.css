@@ -48,6 +48,9 @@ li a:hover{
 .card section img{
     width: 100%;
 }
+.card section p{
+    font-size: large;
+}
 .content{
     display: flex;
     align-items: center;

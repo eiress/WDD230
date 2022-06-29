@@ -32,9 +32,6 @@ function displayDirectory(){
 
 function makeCards(companies){
 
-
-
-
     let card = document.createElement('section');
     let name = document.createElement('p');
     let address = document.createElement('p');
