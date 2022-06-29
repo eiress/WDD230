@@ -28,37 +28,37 @@ images.forEach(image => {
 })
 
 
-const images = document.querySelectorAll('[data-src]');
+// const images = document.querySelectorAll('[data-src]');
 
-const imgoptions = {
-    threshold: 0.5,
-    rootMargin: "0px 0px 200px 0px"
-};
+// const imgoptions = {
+//     threshold: 0.5,
+//     rootMargin: "0px 0px 200px 0px"
+// };
 
-const loadImages = (image) =>{
-    image.setAttribute('src', image.getAttribute('data-src'));
-    image.onload = () => {image.removeAttribute('data-src');};
-};
+// const loadImages = (image) =>{
+//     image.setAttribute('src', image.getAttribute('data-src'));
+//     image.onload = () => {image.removeAttribute('data-src');};
+// };
 
 
-if('intersectionObserver' in window){
-    const imgObserver = new IntersectionObserver((items, observer) => {
-        items.forEach((item) => {
-            if(item.isIntersecting) {
-                loadImages(item.target);
-                observer.unobserve(item.target);
-            }
-            })
-    }, 
-    imgoptions);
+// if('intersectionObserver' in window){
+//     const imgObserver = new IntersectionObserver((items, observer) => {
+//         items.forEach((item) => {
+//             if(item.isIntersecting) {
+//                 loadImages(item.target);
+//                 observer.unobserve(item.target);
+//             }
+//             })
+//     }, 
+//     imgoptions);
  
-    images.forEach((img) => {
-        imgObserver.observe(img);
-    });
-}else{
-    images.forEach((img) =>{
-        loadImages(img);
-    });
+//     images.forEach((img) => {
+//         imgObserver.observe(img);
+//     });
+// }else{
+//     images.forEach((img) =>{
+//         loadImages(img);
+//     });
 
-}
-"
+// }
+// "
