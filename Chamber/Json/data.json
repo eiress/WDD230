@@ -66,14 +66,14 @@
         "name": "Deloitte",
         "Address": "Los Angeles California",
         "phone": "208-897-4120",
-        "website":"https://www.ae.com/us/en",
+        "website":"https://www2.deloitte.com/us/en.html",
         "image":"images/deloitte.png"
     },
     {
         "name": "Macy",
         "Address": "Los Angeles California",
         "phone": "208-897-4120",
-        "website":"https://www.nike.com/",
+        "website":"macys.com",
         "image":"images/macy.png"
     }
 ]

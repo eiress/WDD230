@@ -62,7 +62,27 @@ li a:hover{
     max-width: 200px;
     
 }
+.list_row tr{
+    font-size: 30px;
+    
+}
 
+.logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+.bottom{
+    text-align: center;
+    color: white;
+    font-size: large;
+}
+footer {
+    background-color : brown;
+    justify-content : space-between;
+        }
 /* .card{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
