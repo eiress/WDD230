@@ -4,12 +4,15 @@ fetch(apiURL)
     .then((jsObject) => {
     console.log(jsObject);
 
-    document.querySelector('#icon-src').textContent = iconsrc;
+    const iconsrc = `https://openweathermap.org/img/w/${jsObject.weather[0].icon}.png`;
+    const desc = jsObject.weather[0].description;
+    // document.querySelector('#icon-src').textContent = iconsrc;
 document.querySelector('#weathericon').setAttribute('src', iconsrc);
 document.querySelector('#weathericon').setAttribute('alt', desc);
-document.getElementById('temp').textContent = jsObject.main.temp_max;
-document.getElementById('windspeed').textContent = jsObject.wind.speed;
+document.getElementById('temp').textContent = ((jsObject.main.temp- 273.15) * 1.8 +32).toFixed(2);
+document.getElementById('windSpeed').textContent = jsObject.wind.speed;
 document.getElementById('windChill').textContent;
+document.getElementById('weather_des').textContent = desc;
 
 });
 
@@ -18,9 +21,9 @@ document.getElementById('windChill').textContent;
 
 
    //WindChill     
-        var temp = document.getElementById("temp");
-        var t = temp.textContent;
-        var windSpeed = document.getElementById("windspeed");
+        var tempTwo = document.getElementById("temp");
+        var t = tempTwo.textContent;
+        var windSpeed = document.getElementById("windSpeed");
         var s = windSpeed.textContent;
         document.getElementById
         if (t <= 50 && s > 3.0) {
