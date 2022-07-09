@@ -9,6 +9,10 @@
     header{
         flex-direction: column;
     }
+    body {
+        padding : 10px;
+        font-size: 10px;
+    }
 
     main{
         grid-template-columns: 1fr;
