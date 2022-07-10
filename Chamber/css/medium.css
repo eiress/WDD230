@@ -1,7 +1,7 @@
 @media only screen and (max-width: 60em) {
-     main{
+     #homepagemain{
         grid-template-columns: repeat(3, 1fr);
-        grid-template-rows:  10rem 10rem 10rem 10rem 10rem 6fr;
+        grid-template-rows:  20rem 10rem 10rem 10rem 10rem 6fr;
 
     }
     #Event .portrait {
@@ -65,13 +65,34 @@
         display: flex;
         grid-column: 1/4;
         grid-row: 3/5;
-        justify-content: space-around;
+        justify-content:space-around;
         
     }
     #spot1{
-        justify-content: right;
         text-align: center;
+        padding: 5px;
+        width: 50%;
     }
+
+    #spot1 h2{
+        margin: 0;
+    }
+
+    #spot1 p{
+        margin: 0;
+    }
+
+    #spot2{
+        height:44%;
+        width: 50%;
+        
+    }
+
+    #discovermain{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    
     #spot3{
         display: none;
     }
@@ -96,6 +117,12 @@
     .days{
         display: flex;
         flex-flow: row;
+    }
+
+    table td{
+        font-size: small;
+
+        
     }
     
 }

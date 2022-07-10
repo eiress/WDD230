@@ -14,9 +14,13 @@
         font-size: 10px;
     }
 
-    main{
+    #homepagemain{
         grid-template-columns: 1fr;
         grid-template-rows:  10rem 10rem 10rem 10rem 10rem 5fr;
+    }
+
+    #discovermain{
+        grid-template-columns: 1fr;
     }
 .logo img{
     width: 60%;
@@ -47,7 +51,7 @@
         
     }
     #spot1{
-        height: 20px;
+        height: 90%;
     }
     #spot1 img{
         display: none;
@@ -56,22 +60,31 @@
        display: flex;
        flex-flow: row; 
     }
-    #spot3{
-        display: none;
-    }
+    
     #join{
         display: none;
         
+    }
+
+    #spot2{
+        height:90%;
+        padding:5px;
     }
     #spot2 p{
         font-weight: bold;
         
     }
    #weather{
+        padding: 5px;
         grid-column: 1/2;
         grid-row: 3/4;
-        list-style-type: none;
+        text-align: center;
+        /* list-style-type: none; */
         
+    }
+
+    #weather h2{
+        margin:0;
     }
     #Event{
         grid-column: 1/2;
@@ -122,5 +135,7 @@ footer p {
 }
 
 
+
+
 }
-    }
+    

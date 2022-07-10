@@ -34,7 +34,7 @@ li a:hover{
     align-items: center;
     justify-content: space-around;
 }
-main{
+#homepagemain{
     margin: 0 auto;
     max-width: 90%;
     display: grid;
@@ -52,14 +52,13 @@ main{
 }
 .button1{
     position: absolute;
-    top:25px;
+    bottom:25px;
     right:25px;
     border-radius: 30px;
     background-color: grey;
     cursor: pointer;
-    text-align: center;
-    font-size: 15%; 
-    width: 30em;
+    text-align: center; 
+    width: 5rem;
     height: 60px;
 }
 .button2{
@@ -109,7 +108,12 @@ p{
     grid-column: 1/2;
     grid-row: 3/4;
 }
+
+#weather h2{
+    
+}
 #weather p{
+    margin:0;
     font-size: small;
 }
 .tranport{
@@ -148,6 +152,7 @@ h2{
     justify-content: center;
     align-items: center;
     padding: 10px;
+    /* background-image: url('../images/center.jpeg'); */
     grid-template-columns: 1fr;
     grid-gap: 10px
     
@@ -161,11 +166,11 @@ h2{
 }
 #spot2{
     display: block;
+    text-align: center;
     border: 2px solid black;
     grid-column: 1/2;
     grid-row: 2/3;
     padding: 1.5rem;
-    background-image: url('../images/center.jpeg');
     background-size: cover;
     background-position: center;
 }
@@ -210,6 +215,28 @@ input:focus{
     display: block;
     background-color: lightsalmon;
 }
+
+/* Directory */
+
+table{
+    text-align: center;
+    
+    max-width: 800px;
+    margin: 50px auto;
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+table tr{
+    border: solid 1px black;
+}
+
+table td{
+    padding: 15px;
+    
+}
+
+
 
 
 
