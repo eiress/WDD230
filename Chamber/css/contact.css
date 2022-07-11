@@ -1,0 +1,36 @@
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 20rem 20rem;
+    
+
+}
+.Boss1{
+    grid-column:1/2 ;
+    grid-row: 1/2;
+    
+}
+.boss2{
+    grid-column: 2/3 ;
+    grid-row: 1/2;
+}
+
+.boss3{
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+.boss4{
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+picture img{
+    height: 90%;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+}
+picture figcaption{
+    font-size: large;
+    color:chocolate;
+}
