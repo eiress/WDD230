@@ -3,8 +3,7 @@ main{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 20rem 20rem;
-    
-
+    margin:0 auto;
 }
 .Boss1{
     grid-column:1/2 ;
@@ -25,6 +24,7 @@ main{
     grid-row: 2/3;
 }
 picture img{
+
     height: 90%;
     width: 50%;
     display: flex;
@@ -33,4 +33,9 @@ picture img{
 picture figcaption{
     font-size: large;
     color:chocolate;
+}
+fieldset label{
+    font-size:larger;
+    padding: 1em;
+    
 }
