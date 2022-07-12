@@ -22,6 +22,9 @@
     #discovermain{
         grid-template-columns: 1fr;
     }
+.portrait p{
+    font-size: smaller;
+}
 .logo img{
     width: 60%;
     

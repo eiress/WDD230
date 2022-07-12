@@ -2,7 +2,7 @@
 main{
     
     margin: 40px auto;
-    max-width: 800px;
+    max-width: 700px;
 }
 #Bosses{
     display: grid;
@@ -13,6 +13,10 @@ picture img{
     
     height: 70%;
     width: 70%;
+}
+h3{
+    color:darkorchid ;
+    font-style: oblique;
 }
 
 .Boss1{
