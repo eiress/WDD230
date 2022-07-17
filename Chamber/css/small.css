@@ -152,7 +152,7 @@
       
       .dropdown {
         position: relative;
-        display: inline-block;
+        /* display: inline-block; */
       }
       
       .dropdown-content {
@@ -177,9 +177,9 @@
       
       .dropdown:hover .dropbtn {background-color: #3e8e41;}
 
-      .level{
+      /* .level{
         display: none;
-      }
+      } */
       
 footer .logo {
     width: 60%;

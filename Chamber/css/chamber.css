@@ -94,6 +94,7 @@ p{
 }
 .dropdown{
     display: none;
+    position: static;
 }
 #Event{
     
@@ -235,6 +236,7 @@ table td{
     padding: 15px;
     
 }
+
 
 
 
