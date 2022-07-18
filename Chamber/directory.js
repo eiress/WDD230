@@ -2,11 +2,6 @@ const requesturl=  "https://eiress.github.io/WDD230/Chamber/Json/data.json";
 
 
 
-
-
-
-
-
 function displayDirectory(){
   let section = document.querySelectorAll('section');
     section.forEach((item) => {

@@ -7,28 +7,54 @@
     <script defer src="../Chamber/scripts/weatherapi.js"></script>
     <script defer src="../Chamber/scripts/windchill.js"></script>
     <link rel="shortcut icon" href="favicon.ico">
+    <link href="CSS/home.css" rel="stylesheet">
     <link href="CSS/temple.css" rel="stylesheet">
     <title>The Temple Inn & Suites</title>
 </head>
 <body>
-    <header>
-        
-            <div class="navigation">
-                <div class="logo">
-                    <img src="../Lesson 12/Images/Photo_1657908515046.png" alt="logo">
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a href="/" id="navbar__logo">(TEMPLE)inn(&SUITE)</a>
+                <div class="navbar__toggle" id="mobile-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
                 </div>
-                <nav>
-
-                    <a href="../Lesson 12/home.html">Home</a>
-                    <a href="temple.html">Temple</a>
-                    <a href="">Reservation</a>
-                    <a href="">Services</a>
-                </nav>
+                <ul class="navbar__menu">
+                    <li class="navbar__item">
+                        <a href="../Lesson 12/home.html" class="navbar__link">Home</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="../Lesson 12/temple.html" class="navbar__link">Temple</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="../Lesson 12/Json/temple.json" class="navbar__link">Reservation</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="/" class="navbar__link">Services</a>
+                    </li>
+                </ul>
             </div>
+            <div class="media1">
+                <a href="https://www.youtube.com/watch?v=ot5h1FFy7jk" img src="../Lesson 12/Images/Facebook_Sandra.png" alt="facebook"></a>
+                <img src="../Lesson 12/Images/Sandi.jpg" alt="instagram">
+            </div>
+            </div>
+        </div>
+    </nav>
+
+
+    <footer>
+        <div class="logo">
+            <img src="../Lesson 12/Images/Photo_1657908515046.png" alt="logo">
+            <p>Headquarter located at 4800 Montgomery Ln #300, Bethesda, MD 20814</p>
+        </div>
             <div class="media1">
                 <img src="../Lesson 12/Images/facebook.png" alt="facebook">
                 <img src="../Lesson 12/Images/instagram.png" alt="instagram">
-            </div>
-        
-    </header>
+        </div>
 
+
+    </footer>
+</body>
+</html>
