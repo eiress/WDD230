@@ -4,20 +4,20 @@
         "phone": "(1) 208-322-4422",
         "History": "Announced in 1982",
         "Address": "1211 S Cole Rd Boise ID 83709-1871 United States",
-        "image": "lmages/Boise Idaho.jpg"
+        "image": "Images/BoiseIdaho.jpg"
     },
     {
         "name": "Chicago Illinois Temple",
         "Address": "4151 W Lake Ave Glenview IL 60025-1240 United States",
         "phone": "(1) 847-299-6500",
         "History": "Announced in 1981",
-        "image": "lmages/Chicago-Temple_0784.jpg"
+        "image": "Images/ChicagoTemple0784.jpg"
     },
     {
         "name": "Montana Billings Temple",
         "Address": "3100 Rim Point Dr Billings MT 59106-1386 United States",
         "phone": "(1) 406-655-0607",
         "History": "Announced in 1996",
-        "image": "lmages/Montana Billings.jpg"
+        "image": "Images/MontanaBillings.jpg"
     }
 ]}

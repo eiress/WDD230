@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="../Chamber/scripts/weatherapi.js"></script>
+    <script defer src="../Chamber/scripts/windchill.js"></script>
+    <link rel="shortcut icon" href="favicon.ico">
+    <link href="CSS/home.css" rel="stylesheet">
+    <title>The Temple Inn & Suites</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a href="/" id="navbar__logo">(TEMPLE)inn(&SUITE)</a>
+                <div class="navbar__toggle" id="mobile-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                <ul class="navbar__menu">
+                    <li class="navbar__item">
+                        <a href="../Lesson 12/home.html" class="navbar__link">Home</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="../Lesson 12/temple.html" class="navbar__link">Temple</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="../Lesson 12/reservation.html" class="navbar__link">Reservation</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="/" class="navbar__link">Services</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="media1">
+                <img src="../Lesson 12/Images/Facebook_Sandra.png" alt="facebook">
+                <img src="../Lesson 12/Images/Sandi.jpg" alt="instagram">
+            </div>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <div class="maintempdivbanner">
+            <h2>Reservations</h2>
+        </div>
+        
+
+        <div class="reservation-body-text">
+
+            <form class="reservation-form" method="GET" action="thanks.html">
+                <fieldset class="reservation-form-fieldset">
+                    <legend class="reservation-form-class">Room Information</legend>
+                    <div class="reservation-form-input-div">
+                        <label for="hotel-location">*Location:</label>
+                        <select id="hotel-location" name="hotel-location" class="input-required" required>
+                            <option value="">Select a hotel</option>
+                            <option value="Gilbert">Lagos-Nigeria</option>
+                            <option value="Ogden">Accra-Ghana</option>
+                            <option value="Manti">Congo-Kinshasa</option>
+                            <option value="San Diego">Capetown-South-Africa</option>
+
+                        </select>
+
+                    </div>
+
+                    <div class="reservation-form-input-div">
+                        
+                        <label for="visit-start-date">Start Date:</label>
+                        <input type="date" id="visit-start-date" name="visit-start-date">
+
+                    </div>
+
+                    <div class="reservation-form-input-div">
+
+                        <label for="visit-end-date">End Date:</label>
+                        <input type="date" id="visit-end-date" name="visit-end-date">
+
+                    </div>
+
+                    <div class="reservation-form-input-div">
+
+                        <label for="number-of-rooms">*Number of Rooms:</label>
+                        <input type="number" min="1" max="5" id="number-of-rooms" name="number-of-rooms" class="input-required" required>
+
+                    </div>
+
+                    <div class="reservation-form-input-div">
+
+                        <label for="room-type">*Type of Room:</label> 
+                        <select id="room-type" name="room-type" class="input-required" required>
+
+                            <option value="">Select a room</option>
+                            <option value="Single Bedroom - Single Bed">1 Bedroom-1 Bed</option>
+                            <option value="Single Bedroom - Two Beds">1 Bedroom-2 Beds</option>
+                            <option value="Two Bedrooms - Two Beds">2 Bedrooms-2 Beds</option>
+                            <option value="Two Bedrooms - Two Beds - Kitchenette">2 Bedrooms-2 Beds-Kitchenette</option>
+
+                        </select>
+
+                    </div>
+
+                </fieldset>
+
+                <fieldset class="reservation-form-fieldset">
+
+                    <legend class="reservation-form-class">Guest Information</legend>
+                    <div class="reservation-form-input-div">
+
+                        <label for="guest-full-name">*Name:</label>
+                        <input pattern="[a-zA-Z ]{5,}" type="text" id="guest-full-name" name="guest-full-name" class="input-required" required>
+
+                    </div>
+
+                    <div class="reservation-form-input-div">
+                    
+                        <label for="guest-email">Email:</label>
+                        <input type="email" id="guest-email" name="guest-email">
+
+                    </div>
+
+                    <div class="reservation-form-input-div">
+
+                        <label for="guest-phone">*Phone number:</label>
+                        <input type="tel" id="guest-phone" name="guest-phone" class="input-required" required>
+
+                    </div>
+
+                    <div class="reservation-form-input-div">
+
+                        <label for="guest-state">Home State:</label>
+                        <input type="text" id="guest-state" name="guest-state">
+
+                    </div>
+
+                </fieldset>
+
+                <fieldset class="reservation-form-fieldset">
+
+                    <legend class="reservation-form-class">Other</legend>
+
+                    <div class="reservation-form-input-div">
+
+                        <div>
+
+                            <label for="special-accommodations">Requests:</label>
+                        
+                        </div>      
+                        
+                        <br>
+
+                        <div>
+
+                            <textarea rows="4" cols="38" id="special-accommodations" name="special-accommodations" placeholder="Special Accommodations"></textarea>
+
+                        </div>
+
+                    </div>
+                
+                </fieldset>
+
+                <input type="submit" value="Send" id="submit-button">
+
+            </form>
+
+        </div>
+    </main>
+
+    <footer>
+        <div class="logo">
+            <img src="../Lesson 12/Images/Photo_1657908515046.png" alt="logo">
+        </div>
+        <p>Headquarter located at 4800 Montgomery Ln #300, Bethesda, MD 20814</p>
+            <div class="media1">
+                <img src="../Lesson 12/Images/facebook.png" alt="facebook">
+                <img src="../Lesson 12/Images/instagram.png" alt="instagram">
+        </div>
+
+
+    </footer>
+</body>
+</html>
