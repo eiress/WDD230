@@ -19,5 +19,12 @@
         "phone": "(1) 406-655-0607",
         "History": "Announced in 1996",
         "image": "Images/MontanaBillings.jpg"
+    },
+    {
+        "name": "Aba Nigeria Temple",
+        "Address": "Okpu-Umuoba Road off Aba-Owerri Road at Union Bank",
+        "phone": " (+234) 80-3903-4804",
+        "History":"Announced in 2000",
+        "image": "Images/AbaNigeria.jpg"
     }
 ]}

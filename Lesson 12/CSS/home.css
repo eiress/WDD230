@@ -57,11 +57,11 @@ header{
     gap: 40px;
 }
 .button{
-    position: absolute;
-    bottom: 100px;
-    right: 100px;
+    width: 10%;
+    /* right: 80px; */
     height: 40px;
     cursor: pointer;
+   
 }
 .button:hover{
     background-color: blueviolet;
