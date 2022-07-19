@@ -68,8 +68,8 @@ header{
     color: chartreuse;
 }
 .weatherRep{
-    border: 0.5px dotted green;
-    background-color:coral;
+    border: 1.5px dotted green;
+    background-color:green;
 }
 /* .Provo{
     position: relative;
@@ -216,10 +216,11 @@ footer p{
 
 /* Caption text */
 .text {
-  color: #f2f2f2;
+  color: black;
   font-size: 15px;
   padding: 8px 12px;
   position: absolute;
+  background-color:#ff0844;
   bottom: 8px;
   width: 100%;
   text-align: center;
@@ -259,4 +260,7 @@ footer p{
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
+}
+.dropbtn{
+    display: none;
 }
