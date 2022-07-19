@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@1,100&family=Caveat&family=Edu+NSW+ACT+Foundation&family=Fira+Sans:ital,wght@1,100&family=Tapestry&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&family=Tapestry&display=swap');
 
 main{
     display: grid;
@@ -16,8 +16,20 @@ main{
     font-size: larger;
     grid-column: 1/2;
     grid-row: 1/2;
+  margin: 40px;
+}
+h1{
+  text-align: center;
+  color:crimson;
+}
+H2{
+  font-family: 'Rubik Moonrocks', cursive;
+  color: black;
+  font-size: larger;
 }
 .picture{
+  font-family: 'Edu NSW ACT Foundation', cursive;
+    margin: 20px;
     grid-column: 2/3;
     grid-row: 1/2;
 }

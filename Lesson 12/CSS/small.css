@@ -59,16 +59,19 @@
        
        /* Change the background color of the dropdown button when the dropdown content is shown */
        .navbar__menu:hover .dropbtn {background-color: #3e8e41;}
+
+       .image{
+        height: 15rem;
+        width:20rem;
+      
+    }
  
 }
-.image{
-    height: 20rem;
-    width:20rem;
-    cons
-}
+
        /* Style the active link (or home/logo) */
        /* .active {
          background-color: #04AA6D;
          color: white;
        } */
     
+      
