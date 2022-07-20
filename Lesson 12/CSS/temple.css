@@ -10,7 +10,10 @@ header{
     overflow: hidden; */
 }
 
-
+.card{
+    margin: 20px;
+    border: 2px solid;
+}
 .logo{
     width:200px;
     height: 200px;
