@@ -4,28 +4,28 @@
         "phone": "(1) 208-322-4422",
         "History": "Announced in 1982",
         "Address": "1211 S Cole Rd Boise ID 83709-1871 United States",
-        "image": "../Lesson 12/Images/rsz_boiseidaho.jpg"
+        "image": "Images/rsz_boiseidaho.jpg"
     },
     {
         "name": "Chicago Illinois Temple",
         "Address": "4151 W Lake Ave Glenview IL 60025-1240 United States",
         "phone": "(1) 847-299-6500",
         "History": "Announced in 1981",
-        "image": "../Lesson 12/Images/rsz_chicagotemple0784.jpg"
+        "image": "Images/rsz_chicagotemple0784.jpg"
     },
     {
         "name": "Montana Billings Temple",
         "Address": "3100 Rim Point Dr Billings MT 59106-1386 United States",
         "phone": "(1) 406-655-0607",
         "History": "Announced in 1996",
-        "image": "../Lesson 12/Images/rsz_montanabillings.jpg"
+        "image": "Images/rsz_montanabillings.jpg"
     },
     {
         "name": "Aba Nigeria Temple",
         "Address": "Okpu-Umuoba Road off Aba-Owerri Road at Union Bank",
         "phone": " (+234) 80-3903-4804",
         "History":"Announced in 2000",
-        "image": "../Lesson 12/Images/rsz_abanigeria.jpg"
+        "image": "Images/rsz_abanigeria.jpg"
     }
 ]}
 
