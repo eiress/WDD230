@@ -1,7 +1,7 @@
 @media only screen and (max-width: 32.5em){
         #homemain{
         grid-template-columns: 1fr;
-        grid-template-rows:  10rem 10rem 10rem 10rem 10rem;
+        grid-template-rows:  8rem;
         }
         .weatherRep{
             display: none;

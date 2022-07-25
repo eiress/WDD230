@@ -1,5 +1,9 @@
 @media only screen and (max-width: 60em) {
-    .button2{
+  #homemain{
+    grid-template-columns: 1fr;
+    grid-template-rows:  7rem 18rem 15rem ;
+        }
+  /* .button2{
         padding: 15px 25px;
         font-size: 10px;
         text-align: center;
@@ -18,8 +22,26 @@
         background-color: #3e8e41;
         box-shadow: 0 5px #666;
         transform: translateY(4px);
-      }  
+      }   */
     .button{
-        display: none;
+        display: flex;
     }
-}
+    .summary{
+      grid-column: 1/2;
+      grid-row: 1/2;
+    }
+    
+    .provo{
+      grid-column: 1/2;
+      grid-row: 2/3;
+    }
+    /* /* .weatherRep{
+      grid-column: 1/2;
+      grid-row: 3/4; */
+    /* } */ 
+    .card{
+      margin: 30px;
+      padding:10px;
+border: 2px solid green;
+    }
+  }
