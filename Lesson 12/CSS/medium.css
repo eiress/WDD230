@@ -44,4 +44,17 @@
       padding:10px;
 border: 2px solid green;
     }
+
+    .reserveMain{
+      grid-template-columns: 1fr;
+      grid-row: 40rem 40rem;
+    }
+    .reservation-body-text{
+      grid-column: 1/2;
+      grid-row: 1/2;
+    }
+    .picture{
+      grid-column: 1/2;
+      grid-row: 2/3;
+    }
   }
