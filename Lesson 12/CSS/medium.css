@@ -23,9 +23,26 @@
         box-shadow: 0 5px #666;
         transform: translateY(4px);
       }   */
+
+      /* #navbar__logo{
+        width: 28rem;
+        height: ;
+      } */
+      .navbar__menu{
+        display: none;
+      }
     .button{
         display: flex;
+        font-size: small;
+        
     }
+  .media1{
+    display: none;
+  }
+    /* .button::after{
+      content: "Book now";
+      
+    } */
     .summary{
       grid-column: 1/2;
       grid-row: 1/2;

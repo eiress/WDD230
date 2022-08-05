@@ -1,7 +1,14 @@
+.button{
+  display: none;
+ }
+
 @media only screen and (max-width: 32.5em){
         #homemain{
         grid-template-columns: 1fr;
         grid-template-rows:  8rem;
+        }
+        .media1{
+          display: none;
         }
         .weatherRep{
             display: none;
@@ -21,50 +28,40 @@
         .button{
             display: none;}
         
-     .dropbtn {
-         background-color: #04AA6D;
-         color: white;
-         padding: 16px;
-         font-size: 16px;
-         border: none;
-       }
-       .dropbtn {
-         position: relative;
-         display: inline-block;
-       }
-       
-       /* Dropdown Content (Hidden by Default) */
-       .navbar__menu {
-         display: none;
-         position: absolute;
-         background-color: #f1f1f1;
-         min-width: 160px;
-         box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-         z-index: 1;
-       }
-       
-       /* Links inside the dropdown */
-       .navbar__menu a {
-         color: black;
-         padding: 12px 16px;
-         text-decoration: none;
-         display: block;
-       }
-       
-       /* Change color of dropdown links on hover */
-       .navbar_item a:hover {background-color: #ddd;}
-       
-       /* Show the dropdown menu on hover */
-       .navbar__menu:hover .dropdown-content {display: block;}
-       
-       /* Change the background color of the dropdown button when the dropdown content is shown */
-       .navbar__menu:hover .dropbtn {background-color: #3e8e41;}
-
-       .image{
-        height: 15rem;
-        width:20rem;
-      
-    }
+            .dropbtn {
+              background-color: #04AA6D;
+              color: white;
+              padding: 16px;
+              font-size: 16px;
+              border: none;
+            }
+            
+            .dropdown {
+              position: relative;
+              /* display: inline-block; */
+            }
+            
+            .dropdown-content {
+              display: none;
+              position: absolute;
+              background-color: #f1f1f1;
+              min-width: 160px;
+              box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+              z-index: 1;
+            }
+            
+            .dropdown-content a {
+              color: black;
+              padding: 12px 16px;
+              text-decoration: none;
+              display: block;
+            }
+            
+            .dropdown-content a:hover {background-color: rgb(221, 221, 221);}
+            
+            .dropdown:hover .dropdown-content {display: block;}
+            
+            .dropdown:hover .dropbtn {background-color: #3e8e41;}
  
 }
 

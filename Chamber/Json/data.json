@@ -2,77 +2,77 @@
     {
         "name": "Shein",
         "Address": "Los Angeles California",
-        "phone": "+1-208-897-4120",
+        "phone": "(1)208-897-4120",
         "website":"https://us.shein.com/?ici=us_tab01",  
         "image": "images/images.jpg"
     },
     {
         "name": "6pm",
         "Address": "Los Angeles California",
-        "phone": "+1-208-897-4120",
+        "phone": "(1)208-897-4120",
         "website":"https://www.6pm.com/",
         "image": "images/6pm.png"
     },
     {
         "name": "Amazon",
         "Address": "Los Angeles California",
-        "phone": "+1-208-967-4258",
+        "phone": "(1)208-967-4258",
         "website":"https://www.amazon.com",
         "image": "images/amazon.jpg"
     },
     {
         "name": "Eide Bailly ",
         "Address": "Los Angeles California",
-        "phone": "+1-208-897-4120",
+        "phone": "(1)208-897-4120",
         "website":"https://www.eidebailly.com/",
         "image": "images/eidebailly.png"
     },
     {
         "name": "Alibaba",
         "Address": "Los Angeles California",
-        "phone": "+1-208-897-4120",
+        "phone": "(1)208-897-4120",
         "website":"https://www.alibaba.com/",
         "image": "images/alibaba.jpg"
     },
     {
         "name": "Ulta Beauty",
         "Address": "Los Angeles California",
-        "phone": "+1-208-111-0303",
+        "phone": "(1)208-111-0303",
         "website":"https://www.ulta.com",
         "image": "images/ultra.png"
     },
     {
         "name": "Walmart",
         "Address": "Houston Texas",
-        "phone": "+1-208-222-5459",
+        "phone": "(1)208-222-5459",
         "website":"https://www.walmart.com/",
         "image":"images/walmart.png"
     },
     {
         "name": "Nike INC",
         "Address": "Los Angeles California",
-        "phone": "208-128-3675",
+        "phone": "(1)208-128-3675",
         "website":"https://www.nike.com/",
         "image":"images/nike.png"
     },
     {
         "name": "UBA Bank",
         "Address": "Lagos Nigeria",
-        "phone": "+234-803-344-2723",
+        "phone": "(234)803-344-2723",
         "website":"https://www.nike.com/",
         "image":"images/uba.png"
     },
     {
         "name": "Deloitte",
         "Address": "Los Angeles California",
-        "phone": "208-897-4120",
+        "phone": "(1)208-897-4120",
         "website":"https://www2.deloitte.com/us/en.html",
         "image":"images/deloitte.png"
     },
     {
         "name": "Macy",
         "Address": "Los Angeles California",
-        "phone": "208-897-4120",
+        "phone": "(1)208-897-4120",
         "website":"macys.com",
         "image":"images/macy.png"
     }

@@ -1,10 +1,7 @@
 .information label{
     font-size: medium;
 }
-.level{
-    grid-row: 2/3;
-    grid-column: 1/2;
-}
+
 @media only screen and (max-width: 32.5em){
     header{
         flex-direction: column;
@@ -29,6 +26,9 @@
 .logo img{
     width: 60%;
     
+}
+.level{
+    display: none;
 }
     #hero{
         grid-column: 1/2;
