@@ -267,7 +267,7 @@ footer p{
 }
 .dropdown{
     display: none;
-    position: static;
+    /* position: static; */
 }
 
 @keyframes fade {

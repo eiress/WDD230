@@ -87,7 +87,8 @@ function makeList(companies){
     let address = document.createElement('td');
     let img = document.createElement('img');
     let phone = document.createElement('td');
-    let web = document.createElement('td');
+    let web = document.createElement('a');
+    
 
 
     name.textContent = companies.name;

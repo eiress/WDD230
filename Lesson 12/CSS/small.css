@@ -1,6 +1,4 @@
-.button{
-  display: none;
- }
+
 
 @media only screen and (max-width: 32.5em){
         #homemain{
@@ -25,10 +23,9 @@
             grid-column: 1/2;
             grid-row: 3/4;
         } 
-        .button{
-            display: none;}
         
-            .dropbtn {
+        
+            .dropbtn{
               background-color: #04AA6D;
               color: white;
               padding: 16px;
@@ -62,6 +59,10 @@
             .dropdown:hover .dropdown-content {display: block;}
             
             .dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+    .button2{
+              display: none;
+            }
  
 }
 

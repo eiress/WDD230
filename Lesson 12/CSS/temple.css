@@ -50,10 +50,7 @@ header{
     margin-right: 50px;  
     cursor: pointer; 
 }
-.dropdown{
-    display: none;
-    position: static;
-}
+
 
 footer{
     background-color: white;
