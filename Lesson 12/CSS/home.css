@@ -51,10 +51,13 @@ header{
 }
 #homemain{
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 100px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr;
     margin: 20px;
     gap: 40px;
+}
+.address{
+    margin: 7%;
 }
 .button{
     width: 10%;
